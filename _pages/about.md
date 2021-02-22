@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Currently looking for research opportunities in Summer 2021 Planning to attend graduate school in Fall 2022"
+title: "Looking for research opportunities in Summer 2021 & Planning to attend graduate school in Fall 2022"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -12,7 +12,8 @@ I am a senior undergraduate student, with a major in Computer Science and a mino
 
 My research interests lie at the intersection of theory and practice. I am excited to work on **algorithm design and analysis when applied to distributed and parallel systems**, or **solve system-related problems from a theoretical standpoint**, be it time complexity or programming model.
 
-I publish under Anchengcheng Zhou.
+
+
 
 Research Experiences
 ======
