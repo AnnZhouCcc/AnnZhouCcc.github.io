@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Currently looking for research opportunities in Summer 2021 | Planning to attend graduate school in Fall 2022"
+title: "Currently looking for research opportunities in Summer 2021 \| Planning to attend graduate school in Fall 2022"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
