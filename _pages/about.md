@@ -17,9 +17,24 @@ My research interests lie at the intersection of theory and practice. I am excit
 
 Research Experiences
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+**Improving access history for determinacy race detection**
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+Supervisors: [Dr. Kunal Agrawal](https://www.cse.wustl.edu/~kunal/) and [Dr. I-Ting Angelina Lee](https://www.cse.wustl.edu/~angelee/home_page/), [Parallel Computing Technology Group](http://parallel.cse.wustl.edu/index.html), WUSTL
+
+Race detection typically consists of two components, reachability analysis and access history. Most of the research
+has focused on the former while little attention has been paid to access history, which stores all memory locations previous instructions have
+accessed. In theory, the access history component adds no asymptotic overhead, but in practice, it is often the most expensive component. 
+We leverage the temporal and spatial locality of parallel programs and combine contiguous memory accesses into intervals. 
+We propose coalescing strategies, both in compiler-time and runtime, and a tree-based access history data structure to fully reap the benefit
+of maintaining access history at the granularity of intervals.
+
+
+**Parallelizing determinacy race detectors with efficient access history**
+
+Supervisors: [Dr. Kunal Agrawal](https://www.cse.wustl.edu/~kunal/) and [Dr. I-Ting Angelina Lee](https://www.cse.wustl.edu/~angelee/home_page/), [Parallel Computing Technology Group](http://parallel.cse.wustl.edu/index.html), WUSTL
+
+
+
 
 Getting started
 ======
