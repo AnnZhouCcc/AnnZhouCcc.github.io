@@ -68,7 +68,7 @@ Yifan Xu, **Anchengcheng Zhou**, Grace Q. Yin, Kunal Agrawal, I-Ting Angelina Le
 
 Submitted to 33rd ACM Symposium on Parallelism in Algorithms and Architectures (SPAA 2021)
 
-While there has been extensive research on race-detection
+Abstract: While there has been extensive research on race-detection
 algorithms for task parallel programs, most of this research
 has focused on optimizing a particular component — namely
 reachability analysis, which checks whether two instructions
