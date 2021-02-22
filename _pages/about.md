@@ -8,6 +8,9 @@ redirect_from:
   - /about.html
 ---
 
+
+
+
 I am a senior undergraduate student, with a major in Computer Science and a minor in Linguistics, from Washington University in St. Louis. Prior to that, I graduated from River Valley High School, Singapore.
 
 My research interests lie at the intersection of theory and practice. I am excited to work on **algorithm design and analysis when applied to distributed and parallel systems**, or **solve system-related problems from a theoretical standpoint**, be it time complexity or programming model.
@@ -21,6 +24,7 @@ Research Experiences
 Improving access history for determinacy race detection
 ------
 Supervisors: [Dr. Kunal Agrawal](https://www.cse.wustl.edu/~kunal/) and [Dr. I-Ting Angelina Lee](https://www.cse.wustl.edu/~angelee/home_page/), [Parallel Computing Technology Group](http://parallel.cse.wustl.edu/index.html), WUSTL
+
 Race detection typically consists of two components, reachability analysis and access history. Most of the research
 has focused on the former while little attention has been paid to access history, which stores all memory locations previous instructions have
 accessed. In theory, the access history component adds no asymptotic overhead, but in practice, it is often the most expensive component. 
@@ -32,18 +36,21 @@ of maintaining access history at the granularity of intervals.
 Parallelizing determinacy race detectors with efficient access history
 ------
 Supervisors: [Dr. Kunal Agrawal](https://www.cse.wustl.edu/~kunal/) and [Dr. I-Ting Angelina Lee](https://www.cse.wustl.edu/~angelee/home_page/), [Parallel Computing Technology Group](http://parallel.cse.wustl.edu/index.html), WUSTL
+
 Parallelizing race detection systems is not a trivial task. There are three challenges that need to be handled efficiently in order for the tool to perform. First, we need to version the memory accesses such that the tool is not misled by false positives. Second, we need to design a runtime support such that queries and insertions are sent over to access history in batches that do not conflict with each other. Third, in the access history, we need to design data structures and algorithms such that batches of queries and insertions can be processed in parallel.
 
 
 Tunable deep learning for computational imaging
 ------
 Supervisor: [Dr. Ulugbek Kamilov](https://cigroup.wustl.edu/ulugbek-s-kamilov/), [Computational Imaging Group](https://cigroup.wustl.edu/), WUSTL
+
 Deep learning has led to a paradigm shift in computational imaging. We want to explore the topic of tunable deep learning, where the goal is to design techniques that enable us to adjust convolutional neural networks without retraining them. We aim to achieve this goal with a specially design scaling paramter that explicitly controls the tradeoff between data fidelity and prior and we want to extend the framework to constrained convolutional neural networks, which are more widely used in practice.
 
 
 Making online decisions for protecting geolocation privacy of photo collections
 ------
 Supervisor: [Dr. Ayan Chakrabarti](https://projects.ayanc.org/), [Vision & Learning Group](https://vlg.seas.wustl.edu/), WUSTL
+
 Due to the potential risks of exposing a person’s current location or travel history,
 especially when adversarial neural netowrks are powerful enough to predict locations based on pure image pixels of photo collections, researchers have attempted
 to protect people’s geolocation privacy in various ways. A popular method, aimed at specifically counteracting
@@ -54,10 +61,12 @@ likely locations predicted from the remaining images”. We want to make pruning
 
 Publications
 ======
+
 Efficient Access History for Race Detection
 ------
 Yifan Xu, **Anchengcheng Zhou**, Grace Q. Yin, Kunal Agrawal, I-Ting Angelina Lee, Tao B. Schardl 
 Submitted to 33rd ACM Symposium on Parallelism in Algorithms and Architectures (SPAA 2021)
+
 While there has been extensive research on race-detection
 algorithms for task parallel programs, most of this research
 has focused on optimizing a particular component — namely
@@ -102,23 +111,16 @@ Awards, Honors & Memberships
 Teaching Experiences
 ======
 
+* Teaching Assistant - Advanced Algorithms and Data Structures, WUSTL (Spring 2020, Spring 2021)
+* Teaching Assistant - Algorithms and Data Structures, WUSTL (Fall 2018, Fall 2019)
+* Teaching Assistnat - Introduction to Computer Science, WUSTL (Spring 2018)
 
 
 Work Experiences
 ======
 
-**Markdown generator**
+* Research Assistant - [Yao Chen Lab, WUSTL](https://sites.wustl.edu/yaochenlab/) (January 2021 - Present)
+* Software Engineer Co-op Intern - [Audible Inc., Cambridge](https://www.audible.com/) (September 2020 - January 2021)
+* Software Engineer Intern - [Palantir Technologies Inc., New York](https://www.palantir.com/) (May 2019 - August 2019)
+* Software Engineer Intern - [Mentor Spaces, St. Louis](https://www.mentorspaces.com/) (June 2018 - August 2018)
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
