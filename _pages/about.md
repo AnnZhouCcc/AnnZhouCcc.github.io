@@ -62,35 +62,12 @@ likely locations predicted from the remaining images”. We want to make pruning
 Publications
 ======
 
-Efficient Access History for Race Detection
-------
+**Efficient Access History for Race Detection**
+
 Yifan Xu, **Anchengcheng Zhou**, Grace Q. Yin, Kunal Agrawal, I-Ting Angelina Lee, Tao B. Schardl 
 
 Submitted to 33rd ACM Symposium on Parallelism in Algorithms and Architectures (SPAA 2021)
 
-Abstract: While there has been extensive research on race-detection
-algorithms for task parallel programs, most of this research
-has focused on optimizing a particular component — namely
-reachability analysis, which checks whether two instructions
-are logically in parallel. Little attention has been paid to
-the other important component, namely the access history,
-which stores all memory locations previous instructions have
-accessed. In theory, the access history component adds no asymptotic
-overhead; however, in practice, it is often the most
-expensive component of race detection since it is queried and
-(possibly) updated at each memory access. We optimize this
-component based on the observation that, typically, strands
-within parallel programs access contiguous blocks of memory.
-Therefore, instead of maintaining the access history at
-the granularity of individual memory locations, we maintain
-it at the granularity of these (varying size) intervals. To enable
-this access history, we propose (1) compiler and runtime
-mechanisms that allow us to efficiently collect these intervals
-and (2) a tree-based access history data structure that
-allows us to update and query it at this interval granularity.
-The resulting tool can race detect fork-join code with amortized
-constant overhead, assuming the number of intervals
-is small compared to the total work of the computation.
 
 
 
